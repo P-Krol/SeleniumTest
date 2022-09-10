@@ -23,7 +23,7 @@ public class HotelTest {
     public void setUp() {
         //        Ustaw gdzie jest chromedriver -> STEROWNIK
         System.setProperty("webdriver.chrome.driver",
-                "src/main/resources/drivers/chromedriver.exe");
+                "src/main/resources/drivers/chromedriver");
         //        Otworz przegladarke
         this.driver = new ChromeDriver();
         //        Jesli test nie przechodzi poprawnie, to pewnie za wolno laduje sie strona -> Dodaj czekanie.
